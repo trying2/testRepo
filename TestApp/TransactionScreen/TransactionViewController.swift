@@ -46,6 +46,7 @@ final class TranscationViewController: UIViewController {
         view.addSubview(tableView)
         tableView.allowsSelection = false
         tableView.snp.makeConstraints { $0.edges.equalToSuperview() }
+        tableView.delegate = self
         tableView.dataSource = makeDataSource()
         tableView.backgroundColor = .white
         tableView.register(TransactionCell.self, forCellReuseIdentifier: TransactionCell.identifier)
@@ -66,5 +67,13 @@ final class TranscationViewController: UIViewController {
             return cell
         }
         return tableViewDataSource
+    }
+}
+
+extension TranscationViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let headerView =  HeaderView()
+        headerView.configure(with: model.totalSum)
+        return headerView
     }
 }

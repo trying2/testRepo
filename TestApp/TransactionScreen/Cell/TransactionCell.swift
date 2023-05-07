@@ -60,6 +60,6 @@ final class TransactionCell: UITableViewCell {
 
         currentCurrencyLabel.text = "\(transactionData.currentCurrencySymbol)\(transactionData.currentCurrencyAmount)"
 
-        GBPCurrencyLabel.text = "\(transactionData.gbpCurrencyAmount)"
+        GBPCurrencyLabel.text = "£\(transactionData.gbpCurrencyAmount)"
     }
 }

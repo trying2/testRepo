@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		526D74B72A07D5480000D219 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526D74B62A07D5480000D219 /* HeaderView.swift */; };
 		52BF758E2A079B7000B73244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BF758D2A079B7000B73244 /* AppDelegate.swift */; };
 		52BF75902A079B7000B73244 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BF758F2A079B7000B73244 /* SceneDelegate.swift */; };
 		52BF75922A079B7000B73244 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BF75912A079B7000B73244 /* ProductsViewController.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		526D74B62A07D5480000D219 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		52BF758A2A079B7000B73244 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BF758D2A079B7000B73244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52BF758F2A079B7000B73244 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				52BF75BB2A07B20A00B73244 /* TransactionViewController.swift */,
 				52BF75C02A07B47A00B73244 /* TransactionModel.swift */,
 				52BF75C22A07BC5100B73244 /* TransactionScreenAssembly.swift */,
+				526D74B62A07D5480000D219 /* HeaderView.swift */,
 			);
 			path = TransactionScreen;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				52BF75922A079B7000B73244 /* ProductsViewController.swift in Sources */,
 				52BF75BF2A07B24600B73244 /* TransactionCell.swift in Sources */,
 				52BF75B62A07ACAC00B73244 /* Product.swift in Sources */,
+				526D74B72A07D5480000D219 /* HeaderView.swift in Sources */,
 				52BF75AE2A07A7B900B73244 /* ProductsModel.swift in Sources */,
 				52BF75C72A07C6AF00B73244 /* TransactionDataDTO.swift in Sources */,
 				52BF75B02A07A8C900B73244 /* ProductsScreenAssembly.swift in Sources */,
